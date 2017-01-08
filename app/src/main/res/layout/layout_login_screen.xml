@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/ic_launcher"
+    android:weightSum="1">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#faffebbf"
+        android:backgroundTint="#a8ffffff"
+        android:layout_weight="0.52">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="82dp"
+            android:src="@mipmap/ic_launcher"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:id="@+id/et_login_name"
+            android:hint="Type Login Name"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:alpha="0.8"
+            android:textColor="@color/dim_foreground_material_light"
+            android:textColorHint="@android:color/secondary_text_light" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="53dp"
+            android:inputType="textPassword"
+            android:id="@+id/et_password"
+
+            android:layout_gravity="center_horizontal|bottom"
+            android:hint="Type Password"
+            android:alpha="0.8"
+
+            android:textColorHint="@android:color/secondary_text_light"
+            android:textColor="@color/dim_foreground_material_light" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#faffebbf"
+        android:backgroundTint="#a8ffffff"
+        android:layout_weight="0.07">
+
+        <CheckBox
+            android:layout_width="180dp"
+            android:layout_height="79dp"
+            android:text="Remember Me"
+
+            android:id="@+id/checkBox"
+            android:layout_gravity="left|center_vertical"
+            android:textSize="20dp"
+            android:textColorHint="@color/abc_primary_text_material_light"
+            android:textColor="@color/abc_primary_text_disable_only_material_light"
+            android:alpha="0.8" />
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/imageView3"
+            android:layout_gravity="center"
+            android:src="@mipmap/ic_launcher"
+            android:alpha="0.6" />
+
+        <TextView
+            android:layout_width="177dp"
+            android:layout_height="wrap_content"
+            android:text="Forget Password?"
+            android:id="@+id/textView2"
+            android:layout_gravity="right|center_vertical"
+            android:alpha="0.8"
+            android:textSize="20dp"
+            android:textColor="@color/abc_primary_text_material_light" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_weight="0.40"
+        android:background="#faffebbf"
+        android:backgroundTint="#a8ffffff">
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="match_parent"
+            android:layout_height="71dp"
+            android:text="LOG IN"
+            android:id="@+id/bt_user_login"
+            android:background="@android:color/holo_blue_light"
+            android:layout_gravity="center_horizontal|top"
+            android:textColor="@color/abc_primary_text_disable_only_material_dark"
+            android:textSize="25dp"
+            android:alpha="0.8" />
+
+        <TextView
+            android:layout_width="414dp"
+            android:layout_height="47dp"
+            android:text="if you don't have an account?"
+            android:textSize="20dp"
+            android:layout_marginLeft="20dp"
+           android:layout_marginBottom="20dp"
+
+            android:id="@+id/textView3"
+            android:layout_gravity="center_horizontal|bottom"
+            android:textAlignment="center"
+            android:textColor="@android:color/secondary_text_light"
+            android:alpha="0.8" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#faffebbf"
+        android:backgroundTint="#a8ffffff"
+        android:layout_weight="0.06">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="74dp"
+            android:text="REGISTER"
+            android:id="@+id/bt_user_register"
+            android:background="#fae7a296"
+            android:layout_gravity="center_horizontal|top"
+            android:textColor="@color/abc_primary_text_disable_only_material_dark"
+            android:textSize="25dp"
+            android:alpha="0.8" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="#faffebbf"
+        android:backgroundTint="#a8ffffff"
+        android:transitionGroup="false"
+        android:touchscreenBlocksFocus="false">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="65dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="150dp">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/iv_facebook"
+                android:src="@mipmap/ic_launcher" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/iv_google"
+                android:src="@mipmap/ic_launcher" />
+        </LinearLayout>
+
+
+    </FrameLayout>
+
+</LinearLayout>

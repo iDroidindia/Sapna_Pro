@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/ll_container"
+    >
+    <FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="52dp"
+    android:id="@+id/fm_header">
+
+    <ImageView
+        android:layout_width="134dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:layout_gravity="left|center_vertical" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/iv_student_img"
+        android:layout_marginRight="70dp"
+        android:layout_gravity="right|center_vertical" />
+
+    <TextView
+        android:layout_width="146dp"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:textStyle="bold"
+        android:id="@+id/tv_sept_name1"
+        android:layout_marginRight="120dp"
+        android:layout_gravity="right|top"
+        android:fontFamily="monospace"
+        android:textIsSelectable="false"
+        android:textSize="13dp" />
+
+    <TextView
+        android:layout_width="146dp"
+        android:layout_height="wrap_content"
+        android:text="Class"
+        android:textStyle="bold"
+        android:id="@+id/tv_class"
+        android:layout_marginRight="120dp"
+        android:layout_gravity="right|center_vertical"
+        android:fontFamily="monospace"
+        android:textSize="13dp" />
+
+  <!--  <ProgressBar
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="70dp"
+        android:id="@+id/pb_que"
+        android:layout_gravity="center" /> -->
+
+    <ImageView
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:id="@+id/iv_audio"
+        android:layout_gravity="right|center_vertical"
+      />
+
+    <TextView
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:text="Activity 2"
+        android:layout_marginStart="135dp"
+        android:id="@+id/tv_activity_1"
+        android:layout_gravity="center_horizontal|bottom"
+        android:textColor="@color/abc_primary_text_disable_only_material_light"
+        android:textSize="13dp" />
+
+    <TextView
+        android:layout_width="138dp"
+        android:layout_height="wrap_content"
+        android:text="Time"
+        android:layout_marginStart="150dp"
+        android:id="@+id/tv_time_1"
+        android:layout_gravity="left|bottom"
+        android:textColor="@color/abc_primary_text_disable_only_material_light"
+        android:textSize="13dp" />
+
+</FrameLayout>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/ddbg"
+        android:id="@+id/frame_sept_1">
+
+        <FrameLayout
+            android:layout_width="72dp"
+            android:layout_height="119dp"
+            android:layout_gravity="left|bottom">
+
+            <ImageView
+                android:layout_width="46dp"
+                android:layout_height="32dp"
+                android:id="@+id/iv_sharp_1"
+                android:src="@drawable/sharpener"
+                android:layout_marginStart="10dp"
+                android:layout_gravity="center_horizontal|top" />
+
+            <ImageView
+                android:layout_width="46dp"
+                android:layout_height="32dp"
+                android:id="@+id/iv_sharp_2"
+                android:src="@drawable/sharpener"
+                android:layout_marginStart="10dp"
+                android:layout_gravity="center" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="60dp"
+            android:layout_height="110dp"
+            android:layout_gravity="left|bottom"
+            android:layout_marginStart="70dp">
+            <ImageView
+                android:layout_width="46dp"
+                android:layout_height="32dp"
+                android:id="@+id/iv_sharp_3"
+                android:src="@drawable/sharpener"
+
+                 />
+
+            <ImageView
+                android:layout_width="46dp"
+                android:layout_height="32dp"
+                android:id="@+id/iv_sharp_4"
+                android:src="@drawable/sharpener"
+                android:layout_gravity="left|center_vertical" />
+
+        </FrameLayout>
+
+        <Button
+
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:text="submit"
+            android:background="@drawable/gradient_button"
+            android:padding="15dp"
+            android:layout_gravity="right|bottom"
+            android:textColor="@color/abc_primary_text_disable_only_material_light"
+            android:textSize="15dp"
+            android:paddingStart="0dp"
+
+            android:paddingEnd="0dp" />
+
+        <FrameLayout
+            android:layout_width="75dp"
+            android:layout_height="110dp"
+            android:layout_marginStart="110dp"
+            android:layout_gravity="left|bottom">
+
+            <ImageView
+                android:layout_width="46dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/iv_eraser_1"
+                android:src="@drawable/eraser"
+                android:layout_gravity="center_horizontal|top" />
+
+            <ImageView
+                android:layout_width="46dp"
+                android:layout_height="32dp"
+                android:id="@+id/iv_eraser_2"
+                android:src="@drawable/eraser"
+                android:layout_gravity="center" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="96dp"
+            android:layout_height="98dp"
+            android:layout_marginEnd="100dp"
+            android:layout_gravity="center_horizontal|bottom">
+
+            <ImageView
+                android:layout_width="46dp"
+                android:layout_height="32dp"
+                android:id="@+id/iv_eraser_3"
+                android:src="@drawable/eraser"
+                android:layout_gravity="center_horizontal|top" />
+
+            <ImageView
+                android:layout_width="46dp"
+                android:layout_height="32dp"
+                android:id="@+id/iv_eraser_4"
+                android:src="@drawable/eraser"
+                android:layout_gravity="center" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="92dp"
+            android:layout_height="150dp"
+            android:layout_marginRight="20dp"
+            android:layout_gravity="center_horizontal|bottom">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:id="@+id/iv_pencil_1"
+                android:layout_marginBottom="10dp"
+                android:src="@drawable/pencil"
+                android:layout_gravity="left|bottom" />
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:id="@+id/iv_pencil_2"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="60dp"
+                android:src="@drawable/pencil"
+                android:layout_gravity="left|top" />
+
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginRight="200dp"
+            android:layout_gravity="right|bottom">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:id="@+id/iv_pencil_3"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/pencil"
+                android:layout_gravity="center_horizontal|top" />
+
+
+        </FrameLayout>
+
+        <TextView
+            android:layout_width="373dp"
+            android:layout_height="120dp"
+            android:text="Hello;               "
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="30dp"
+            android:id="@+id/textView2"
+            android:layout_gravity="left|top"
+            android:textColor="@color/abc_primary_text_material_dark" />
+
+        <ImageView
+            android:layout_width="169dp"
+            android:layout_height="match_parent"
+            android:id="@+id/iv_box"
+            android:layout_gravity="right|center_vertical"
+            android:layout_marginTop="80dp"
+            android:layout_marginBottom="30dp"
+            android:layout_marginEnd="20dp"
+            android:src="@drawable/box"/>
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/iv_target_p1"
+            android:layout_marginTop="33dp"
+            android:layout_marginRight="60dp"
+            android:src="@drawable/pencil"
+            android:visibility="invisible"
+            android:layout_gravity="right|center_vertical"/>
+
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/iv_target_p2"
+            android:layout_marginTop="36dp"
+            android:layout_marginRight="60dp"
+            android:src="@drawable/pencil"
+            android:visibility="invisible"
+            android:layout_gravity="right|center_vertical"/>
+
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/iv_target_p3"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="60dp"
+            android:src="@drawable/pencil"
+            android:visibility="invisible"
+            android:layout_gravity="right|center_vertical"/>
+
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/iv_target_p4"
+            android:layout_marginTop="42dp"
+            android:layout_marginRight="60dp"
+            android:src="@drawable/pencil"
+            android:visibility="invisible"
+            android:layout_gravity="right|center_vertical"/>
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="118dp"
+            android:id="@+id/iv_pencil_4"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="30dp"
+            android:layout_gravity="right|bottom"
+            android:src="@drawable/pencil"/>
+
+
+    </FrameLayout>
+
+
+
+
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rl"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".MainActivity"
+    android:background="#e7f4f9"
+    >
+    <ImageView
+        android:id="@+id/iv_red"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="#ff0000"
+        android:layout_margin="15dp"
+        />
+    <ImageView
+        android:id="@+id/iv_olive"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="#808000"
+        android:layout_toRightOf="@id/iv_red"
+        android:layout_toEndOf="@id/iv_red"
+        android:layout_margin="15dp"
+        />
+    <ImageView
+        android:id="@+id/iv_indigo"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="#4B0082"
+        android:layout_toRightOf="@id/iv_olive"
+        android:layout_toEndOf="@id/iv_olive"
+        android:layout_margin="15dp"
+        />
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textSize="80sp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Drag Here"
+        />
+</RelativeLayout>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <FrameLayout
+        android:layout_width="686dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="right"
+        android:background="@mipmap/ic_launcher"
+        android:id="@+id/frame_sept_1">
+
+
+
+        <ImageView
+            android:layout_width="604dp"
+            android:layout_height="347dp"
+            android:src="@mipmap/ic_launcher"
+            android:layout_gravity="right|bottom"
+            android:layout_marginEnd="60dp"/>
+
+        <FrameLayout
+            android:layout_width="357dp"
+            android:layout_height="207dp"
+            android:layout_gravity="center_horizontal|top">
+            <CheckBox
+                android:layout_width="142dp"
+                android:layout_height="91dp"
+                android:id="@+id/chk_1"
+
+                android:fontFamily="monospace"
+                android:textColor="@color/abc_primary_text_disable_only_material_dark"
+                android:layout_gravity="left|bottom"
+                android:text="Hellooo" />
+
+            <CheckBox
+                android:layout_width="214dp"
+                android:layout_height="79dp"
+                android:text="nameeeee"
+                android:id="@+id/chk_2"
+                android:layout_gravity="left|center_vertical"
+                android:fontFamily="monospace"
+                android:textColor="@color/abc_primary_text_disable_only_material_dark" />
+
+            <CheckBox
+                android:layout_width="166dp"
+                android:layout_height="91dp"
+                android:text="rollnooooo"
+                android:id="@+id/chk_3"
+                android:layout_marginStart="60dp"
+                android:layout_gravity="center_horizontal|bottom"
+                android:fontFamily="monospace"
+                android:textColor="@color/abc_primary_text_disable_only_material_dark" />
+
+            <CheckBox
+                android:layout_width="163dp"
+                android:layout_height="77dp"
+                android:text="classssss"
+                android:layout_marginStart="60dp"
+                android:id="@+id/chk_4"
+                android:layout_gravity="center"
+                android:fontFamily="monospace"
+                android:textColor="@color/abc_primary_text_disable_only_material_dark" />
+
+            <TextView
+                android:layout_width="311dp"
+                android:layout_height="112dp"
+                android:text="Que"
+                android:textStyle="bold"
+                android:id="@+id/tv_que"
+                android:layout_gravity="left|center_vertical"
+                android:textColor="@color/abc_background_cache_hint_selector_material_light"
+                android:fontFamily="monospace" />
+
+
+        </FrameLayout>
+
+
+        <Button
+            android:id="@+id/ib_submit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="8dip"
+            android:text="Submit"
+
+            android:layout_gravity="right|bottom" />
+
+        <TextView
+            android:layout_width="87dp"
+            android:layout_height="89dp"
+            android:text="Activity"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="40dp"
+            android:id="@+id/tv_activity"
+            android:layout_gravity="right|top"
+            android:fontFamily="monospace"
+            android:textColor="@color/abc_primary_text_disable_only_material_dark" />
+
+        <TextView
+            android:layout_width="88dp"
+            android:layout_height="239dp"
+            android:text="Time"
+            android:textStyle="bold"
+            android:id="@+id/tv_time"
+            android:layout_gravity="right|center_vertical"
+            android:fontFamily="monospace"
+            android:textColor="@color/abc_primary_text_disable_only_material_dark" />
+
+    </FrameLayout>
+
+
+
+</LinearLayout>

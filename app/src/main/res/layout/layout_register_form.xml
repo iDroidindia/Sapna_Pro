@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+    <ImageView
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:src="@mipmap/ic_launcher"
+        android:layout_weight="0.03" />
+
+    <EditText
+        android:id="@+id/et_name"
+        android:layout_width="267dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:hint="Type Your Name"
+        android:maxLines="1"
+
+        android:textColorHint="@color/abc_input_method_navigation_guard"
+        android:ems="10"
+        android:layout_marginLeft="20dp">
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/et_contact"
+        android:layout_width="264dp"
+        android:layout_marginTop="30dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:maxLength="10"
+        android:layout_marginLeft="20dp"
+        android:hint="Type Your Contact Number"
+        android:inputType="phone"
+        android:textColorHint="@color/abc_input_method_navigation_guard" />
+
+    <EditText
+        android:id="@+id/et_email"
+        android:layout_width="267dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:layout_marginLeft="20dp"
+        android:inputType="text"
+        android:hint="Type Your Email Id"
+        android:textColorHint="@color/abc_primary_text_disable_only_material_light" />
+
+    <EditText
+        android:id="@+id/et_user_name"
+        android:layout_width="262dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:layout_marginLeft="20dp"
+        android:hint="Type Your User Name "
+        android:textColorHint="@color/abc_primary_text_disable_only_material_light" />
+
+    <EditText
+        android:id="@+id/et_user_pass"
+        android:layout_width="264dp"
+        android:hint="Enter Your Password "
+        android:layout_marginTop="30dp"
+        android:inputType="textPassword"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:ems="10"
+        android:textColorHint="@color/abc_primary_text_disable_only_material_light" />
+
+
+    <Button
+        android:layout_width="132dp"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="Submit"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="30dp"
+        android:id="@+id/bt_submit"
+        android:layout_gravity="right"
+        android:layout_weight="0.15"
+        android:background="@color/material_deep_teal_500" />
+
+
+
+</LinearLayout>
